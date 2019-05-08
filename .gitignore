@@ -1,2 +1,9 @@
 node_modules
 ssl
+
+*.lock
+*.yaml
+
+vendor/
+.idea/
+.vscode/

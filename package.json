@@ -1,24 +1,25 @@
 {
-  "name": "simplewebrtc-messenger",
+  "name": "live-video-chat-simplewebRTC",
   "version": "1.0.0",
-  "description": "Simple WebRTC Messenger",
+  "description": "Simple Live Video CHat With WebRTC",
   "scripts": {
     "start": "node server.js"
   },
   "keywords": [
-    "WebRTC"
+    "WebRTC",
+    "LiveVideoChat"
   ],
-  "author": "Michael Wanyoike",
-  "license": "MIT",
+  "author": "Taher Fattahi",
+  "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git@github.com:brandiqa/simplewebrtc-messenger.git"
+    "url": "https://github.com/taherfattahi/SimpleWebRTC-Video-Chat.git"
   },
   "dependencies": {
-    "express": "^4.16.3",
-    "handlebars": "^4.0.11",
-    "jquery": "^3.3.1",
-    "semantic-ui-css": "^2.3.1",
-    "simplewebrtc": "^3.0.1"
+    "express": "^4.16.4",
+    "handlebars": "^4.1.2",
+    "jquery": "^3.4.1",
+    "semantic-ui-css": "^2.4.1",
+    "simplewebrtc": "^3.0.2"
   }
 }
